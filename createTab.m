@@ -18,7 +18,7 @@ function tab = createTab(choice, rows, columns)
             fig = figure;
             a = axes(fig);
             a.Units = 'pixels';
-            a.Position =  [10 10 440 440];
+            a.Position =  [10 10 410 410];
             set(gca,'XLim',[1 columns], 'YLim',[1 rows]);
             imshow(tab, 'Parent', gca, 'InitialMagnification','fit', 'Colormap', map);
             button = uicontrol('Style', 'pushButton','String', 'Almost there!', 'Position', [460 250 90 50]);
