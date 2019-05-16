@@ -43,6 +43,7 @@ function tab = createTab(choice, rows, columns)
     
                 function state(src,event)
                     inputflag=0;
+                    
                 end
 end
 
